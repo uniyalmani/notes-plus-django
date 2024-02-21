@@ -7,6 +7,6 @@ RUN pip install  -r requirements.txt
 
 COPY . .
 
-WORKDIR /usr/src/app/node_pluse
+WORKDIR /usr/src/app/note_pluse
 
 CMD ["python", "manage.py", "runserver", "0.0.0.0:80"]
