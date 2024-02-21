@@ -1,11 +1,15 @@
 # Project Setup 
 
-## requirement
+## Requirement
 Docker
 
 ```
+docker-compose build
 docker-compose up
 ```
+## Base URL
+
+http://127.0.0.1:8000
 
 
 # API Documentation
